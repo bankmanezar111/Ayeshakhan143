@@ -232,7 +232,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
    mess = "{name}"
   
-  if (event.body.indexOf("Saima") == 0 || (event.body.indexOf("SAIMA") == 0)) {
+  if (event.body.indexOf("ruhi") == 0 || (event.body.indexOf("Ruhi") == 0)) {
     var msg = {
       body: `${name}, ${rand}`
     }
