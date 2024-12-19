@@ -14,8 +14,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         var { threadID, messageID } = event;
         if (event.body.indexOf("BYE")==0 || event.body.indexOf("bye")==0 || event.body.indexOf("Bye")==0 || event.body.indexOf("ByE")==0) {
                 var msg = {
-                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐒𝐡𝐚𝐚𝐧 𝐊𝐡𝐚𝐧 \n__________________________________\n🙋  🄱🅈🄴 🄱🅈🄴 🄱🄰🄱🅄 🄼🄸🅂🅂 🅈🄾🅄 🄱🄷🅄🅃 🅂🄰🅁🄰  🙋\n__________________________________ ",
-                                attachment: fs.createReadStream(__dirname + `/noprefix/51e2737de4bcc279c7d898c1799f8685.gif`)
+                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐊𝐇𝐀𝐍    𝐒𝐀𝐇𝐀𝐁 \n__________________________________\n🙋  🄱🅈🄴 🄱🅈🄴 🄱🄰🄱🅄 🄼🄸🅂🅂 🅈🄾🅄 🄱🄷🅄🅃 🅂🄰🅁🄰  🙋\n__________________________________ ",
+                                attachment: fs.createReadStream(__dirname + `/noprefix/e30f07dd460f40ecc1fec3a0ea4d013f.gif`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🥂", event.messageID, (err) => {}, true)
