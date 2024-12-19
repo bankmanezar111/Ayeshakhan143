@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         if (event.body.indexOf("julabjamun")==0 || event.body.indexOf("GULABJAMUN")==0 || event.body.indexOf("Gulabjamun")==0 || event.body.indexOf("sargulla")==0) {
                 var msg = {
                                 body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐊𝐇𝐀𝐍  𝐒𝐀𝐇𝐀𝐁 \n__________________________________\n\n𝐘𝐚𝐚 𝐋𝐨𝐨 𝐁𝐚𝐁𝐲 𝐆𝐮𝐥𝐚𝐁𝐣𝐚𝐌𝐮𝐧 \n__________________________________",
-                                attachment: fs.createReadStream(__dirname + `/noprefix/Pinterest-Foodie-Heaven-Dessert-Recipe-Cake-Recipe-Cooking-Tips-Gulab-Jamun-Recipe.mp4`)
+                                attachment: fs.createReadStream(__dirname + `/noprefix/66e09d7548ad1e2bbb5881da4e489873.jpg`)
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)
