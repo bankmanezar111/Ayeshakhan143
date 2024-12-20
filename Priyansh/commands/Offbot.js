@@ -8,7 +8,7 @@ module.exports.config = {
 	cooldowns: 0
         };
 module.exports.run = ({event, api}) =>{
-    const permission = ["100016828397863", "100016828397863"];
-  	if (!permission.includes(event.senderID)) return api.sendMessage("[ ERR ] OYE YE COMMAND SHAAN BOSS DE SAK THA AAI SAMJH🙄", event.threadID, event.messageID);
+    const permission = ["61556803719349", "61556803719349"];
+  	if (!permission.includes(event.senderID)) return api.sendMessage("[ ERR ] OYE YE COMMAND KHAN BOSS DE SAK TA HAI SAMJHA🙄", event.threadID, event.messageID);
   api.sendMessage(`[ OK ] ${global.config.BOTNAME} Bot are now turned off.`,event.threadID, () =>process.exit(0))
 }
