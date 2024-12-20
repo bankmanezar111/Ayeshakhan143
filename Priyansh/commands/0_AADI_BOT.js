@@ -36,7 +36,7 @@ var rand = tl[Math.floor(Math.random() * tl.length)]
   
   if (event.body.indexOf("Suhana") == 0 || (event.body.indexOf("SUHANA") == 0)) {
     var msg = {
-      body: ` ${name} \n____________________________________\n\n${rand}\n____________________________________ \n𝐎𝐰𝐧𝐞𝐫 ➻  ────  🅚🅗🅐🅝   🅢🅐🅗🅐🅑`
+      body: ` ${name} \n____________________________________\n\n${rand}\n____________________________________ \n𝐎𝐰𝐧𝐞𝐫 ➻  ────\n\n  🅚🅗🅐🅝   🅢🅐🅗🅐🅑`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
