@@ -58,7 +58,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("Ye dil na bejo Mujhe sharam aati hai yar😂😂🙈🙈", threadID);
      };
      if ((event.body.toLowerCase() == "🥴") || (event.body.toLowerCase() == "🥺")) {
-       return api.sendMessage("shakal dekh ke pata chal raha hai AP janam se hi single ", threadID);
+       return api.sendMessage("shakal dekh ke pata chal raha hai AP janam se hi single ho", threadID);
      };
     if ((event.body.toLowerCase() == ".und") || (event.body.toLowerCase() == ".unsand")) {
        return api.sendMessage("️ChaWly Na Marra Kr Na Fir", threadID, messageID);
@@ -74,7 +74,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
       if ((event.body.toLowerCase() == "🤗") || (event.body.toLowerCase() == "🤗")) {
        return api.sendMessage("yahan nahi Ib chalo ☺️", threadID);
      };
-    if ((event.body.toLowerCase() == "Khan") || (event.body.toLowerCase() == "khan")) {
+    if ((event.body.toLowerCase() == "khan") || (event.body.toLowerCase() == "Khan")) {
        return api.sendMessage("Boss busy hai Mujse bat Karo 🙄", threadID);
      };
     if ((event.body.toLowerCase() == "janu") || (event.body.toLowerCase() == "jan")) {
