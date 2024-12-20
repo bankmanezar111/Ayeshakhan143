@@ -75,7 +75,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("yahan nahi Ib chalo ☺️", threadID);
      };
     if ((event.body.toLowerCase() == "khan") || (event.body.toLowerCase() == "Khan")) {
-       return api.sendMessage("Boss busy hai Mujse bat Karo 🙄", threadID);
+       return api.sendMessage("Boss busy hai ayesha ke sath Mujse bat Karo 🙄", threadID);
      };
     if ((event.body.toLowerCase() == "janu") || (event.body.toLowerCase() == "jan")) {
        return api.sendMessage("Janu me serf khan ki hu samjhy", threadID);
@@ -91,7 +91,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
 
      if ((event.body.toLowerCase() == "boss") || (event.body.toLowerCase() == "shaan oye")) {
-       return api.sendMessage("Prefix Kon Lagayega garab insan? Pehle Prefix Lagao Fir Likho Shaan boss", threadID);
+       return api.sendMessage("Prefix Kon Lagayega gareeb insan? Pehle Prefix Lagao Fir Likho khan boss", threadID);
      };
      if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello")) {
        return api.sendMessage("Next Hi/Hello nhi Assalamualaikum Bola kro Okay 💖", threadID);
@@ -121,9 +121,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
      if ((event.body.toLowerCase() == "inbox aa")) {return api.sendMessage("kab Sai Hoga ye system Har koi inbox 📥 Jana chata 😀🙄🙄 ", threadID);
      };
-      if ((event.body.toLowerCase() == "ladki ho")) {return api.sendMessage("Nahi ye both Hai tharki insan 😂😀🙄 ", threadID);
+      if ((event.body.toLowerCase() == "ladki ho")) {return api.sendMessage("Nahi ye bhoot Hai tharki insan 😂😀🙄 ", threadID);
      };
-              if ((event.body.toLowerCase() == "wow")) {return api.sendMessage("Thank you Apko bhi bot chahiya tOo Shaan se rabta karo👍👍💕" , threadID);
+              if ((event.body.toLowerCase() == "Wow")) {return api.sendMessage("Thank you Apko bhi bot chahiya tOo khan boss  se baat karo 925359##83 ye lo boss ka nmbar👍👍💕" , threadID);
      };
          if ((event.body.toLowerCase() == "👻")) {return api.sendMessage("𝒀𝑬 𝑫𝑬𝑲𝑯 𝑮𝑨𝑹𝑬𝑬𝑩𝑶 𝑲𝑨 𝑩𝑶𝑻𝑯🤣🤣😅 ", threadID);
      };
@@ -273,7 +273,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "💚")) {return api.sendMessage("___)Ankho__🌿__m__🍒__pyar__💦dil___❣️__me__💥___khumar___🌹___pyar____🌿___toh____😴___nhi___💥___kar_🌿_liya___🌿___mujhse____🌿🌹❣️__________________?🥰🥰😍 ", threadID);
      };
 
-    if ((event.body.toLowerCase() == "🙄")) {return api.sendMessage(" Shaan Boss busy hai mujse bat karo🙄🙄 ", threadID);
+    if ((event.body.toLowerCase() == "🙄")) {return api.sendMessage(" upar kiya hai 🙄🙄 ", threadID);
      };
     if ((event.body.toLowerCase() == "🥳")) {return api.sendMessage("OO tery kis ki birthday hai  🎂🎂", threadID);
      };
