@@ -1,6 +1,6 @@
-bbconst fs = global.nodemodule["fs-extra"];
+const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "AADI",
+  name: "AADI1",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "AADI BABU",
