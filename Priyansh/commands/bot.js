@@ -22,7 +22,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
    if ((event.body.toLowerCase() == "kamina") || (event.body.toLowerCase() == "sala")) {
-       return api.sendMessage("Gali na de Shaan ko bata dungi🙄🙄🙏", threadID);
+       return api.sendMessage("Gali na de Khan boss ko bata dungi🙄🙄🙏", threadID);
      };
    if ((event.body.toLowerCase() == "hug me") || (event.body.toLowerCase() == "hug")) {
        return api.sendMessage("Yahan Nahi ib chalo 🙈🙈😂", threadID);
@@ -31,7 +31,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
        return api.sendMessage("hai tamnna hamey tujhe Kam wali bay banaya🤣🤣", threadID);
      };
     if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "😱")) {
-       return api.sendMessage("is nazar se serf  𝐓𝐀𝐌𝐈𝐑𝐀 dekh sak thi hai Mujhe💞", threadID);
+       return api.sendMessage("is nazar se sirf mere khan boss dekh sakte hai Mujhe💞", threadID);
      };
     if ((event.body.toLowerCase() == "i hate you") || (event.body.toLowerCase() == "hate you")) {
        return api.sendMessage("Kya itna bura hoon main Ke AP Mujhe I hate you bol rahe ho ja main tujh se bat Nahi Kar thi😪😪😥😢", threadID);
@@ -74,11 +74,11 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
       if ((event.body.toLowerCase() == "🤗") || (event.body.toLowerCase() == "🤗")) {
        return api.sendMessage("yahan nahi Ib chalo ☺️", threadID);
      };
-    if ((event.body.toLowerCase() == "shaan") || (event.body.toLowerCase() == "shan")) {
+    if ((event.body.toLowerCase() == "Khan") || (event.body.toLowerCase() == "khan")) {
        return api.sendMessage("Boss busy hai Mujse bat Karo 🙄", threadID);
      };
     if ((event.body.toLowerCase() == "janu") || (event.body.toLowerCase() == "jan")) {
-       return api.sendMessage("Janu me serf Shaan ki hu samjhy", threadID);
+       return api.sendMessage("Janu me serf khan ki hu samjhy", threadID);
      };
    if ((event.body.toLowerCase() == "😂😂😂") || (event.body.toLowerCase() == "😁😁😁")) {
        return api.sendMessage("uff kya hass raha hai jese kisi ladki han bolo ho😂😂😂😂", threadID);
