@@ -1,6 +1,6 @@
  ccccc fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "BOTT",
+  name: "AADI3",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "AADI BABU",
@@ -77,7 +77,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
    mess = "{name}"
   
-  if (event.body.indexOf("bot") == 0 || (event.body.indexOf("bot") == 0)) {
+  if (event.body.indexOf("BOT") == 0 || (event.body.indexOf("BOTT") == 0)) {
     var msg = {
       body: ` ${name} \n____________________________________\n\n${rand}\n____________________________________ \n𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐊𝐇𝐀𝐍    𝐒𝐀𝐇𝐀𝐁`
     }
