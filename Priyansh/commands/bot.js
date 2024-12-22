@@ -192,7 +192,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
 
      if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "bot ka malik")) {
-       return api.sendMessage("༻𝐎𝐖𝐍𝐄𝐑:- ☞ ༻☞[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🐼⃝⃞⃟𝙠𝙝𝙖𝙣 𝐒𝐚𝐡𝐚𝐛🎸  ☜ 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 𝐤𝐡𝐚𝐧. ☜ ༺༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- https://www.facebook.com/𝐌𝐑 𝐊𝐇𝐀𝐍 𝐒𝐀𝐇𝐀𝐁 345☞    his insta id @khank345 ☜ ༺༒ ༒", threadID);
+       return api.sendMessage("༻𝐎𝐖𝐍𝐄𝐑:- ☞ ༻☞[𝐎𝐖𝐍𝐄𝐑:☞➸⃝🝐꯭𐏓꯭꯭ ⃪⧉⃞꯭🦋𝙆𝙃𝘼𝙉✿𝘼𝙔𝙀𝙎𝙃𝘼⟭꯭♥️꯭꯭ ⃝꯭𝆺𝅥⃝꯭🌿🎸  ☜ TO DOSTO MUJHE KHAN BOSS NE BNAYA HAI AAP SAB SE MASTI KRRNE KE LIYE AAP LOGO KO KOI BHI HELP CHAHIYE HO TO BOSS KO COLL KRLO (925359##83)👈 YE LO NAMBR DHANYWAAD 🙏. ☜ ༺༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- https://www.facebook.com/profile.php?id=61556803719349&mibextid=ZbWKwL    ☞ his insta id @khank345 ☜ ༺༒ ༒", threadID);
      };
 
      if ((event.body.toLowerCase() == "tera Malik kon hai") || (event.body.toLowerCase() == "is bot ka malik kon hai")) {
@@ -262,7 +262,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     if ((event.body.toLowerCase() == "ptoge") || (event.body.toLowerCase() == "patogi")) {     return api.sendMessage("️️️nikal tharki group se remove kar dougi", threadID);
      };
 
-    if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "love you")) {     return api.sendMessage("️️️ITNE MUJHE I LOVE YOU BOL RHI HO MERE BOSS SHAAN KHAN URF SALAAR KO BOLO BAHUT HI ACHA BNDA HAI MERA BOSS ", threadID);
+    if ((event.body.toLowerCase() == "i love you") || (event.body.toLowerCase() == "love you")) {     return api.sendMessage("️️️ITNE MUJHE I LOVE YOU BOL RHI HO MERE BOSS KHAN KO BOLO BAHUT HI ACHA BNDA HAI MERA BOSS ", threadID);
      };
     if ((event.body.toLowerCase() == "i miss you") || (event.body.toLowerCase() == "miss you")) {     return api.sendMessage("️️️i miss you too my love ummah 😘😘😘", threadID);
      };
