@@ -183,8 +183,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Are apne muh pe kyu maar rahe ho, Mujhe batao kya huva?😬", threadID);
    };
    
-   if ((event.body.toLowerCase() == "😂") || (event.body.toLowerCase() == "😁") || (event.body.toLowerCase() == "😆") || (event.body.toLowerCase() == "🤣") || (event.body.toLowerCase() == "😸") || (event.body.toLowerCase() == "😹")) {
-     return api.sendMessage("Aapke dant bhot gande hai band krlo bhot badbu aa rhi hai isme se 🤮", threadID);
+   if ((event.body.toLowerCase() == "royal") || (event.body.toLowerCase() == "々【Roɣāl 々【لڑکا】ek nambar ka thatki hai pura din bas ladkiyo ko line marta rhata hai par abhi tak pti ek ladki bhi nhi🫣😂🤣😂🤣👈") || (event.body.toLowerCase() == "ROYAL") || (event.body.toLowerCase() == "Royal") || (event.body.toLowerCase() == "ROYALL") || (event.body.toLowerCase() == "ROYAL")) {
+     return api.sendMessage("royal", threadID);
    };
 
    if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "😍") || (event.body.toLowerCase() == "😻") || (event.body.toLowerCase() == "❤️")) {
